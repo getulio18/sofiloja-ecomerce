@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import { Children } from 'react';
 import './App.css';
+import Menu from './componets/menu/menu';
 
 function App() {
   return (
+  
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu >
+        
+        <img src="https://iconape.com/wp-content/files/yu/349831/svg/349831.svg" alt="Sofiloja" />
+        <li className="btnm active">Inicio</li>
+        <li className="btnm">Comprar</li>
+        <li className="btnm">jeanseans</li>
+        <li className="btnm">Praia</li>
+        <li className="btnm">Fit</li>
+        <li className="btnm">Roupas</li>
+        <button className="btnm">Login</button>
+      </Menu>
+      
+     
+      
     </div>
+   
   );
 }
 
