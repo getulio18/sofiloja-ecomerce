@@ -4,7 +4,7 @@ import './cartWidgets.css';
 function cartWidgets() {
     return (
       <div className='carrinho'>
-        <img src={car} alt='carrinho' />
+        <img className='car' src={car} alt='carrinho' />
       </div>
     
       

@@ -1,3 +1,7 @@
 .carrinho{
-    background-color: red;
+    padding: 10px;
+}
+.car{
+    width: 30px;
+    cursor: pointer;
 }

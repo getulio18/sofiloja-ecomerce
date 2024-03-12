@@ -1,0 +1,26 @@
+.caixa,.btnCar{
+  display: flex;
+  width: 300px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  
+}
+button{
+  background-color: rgb(241, 190, 246);
+  height: 40px;
+  border-radius: 20px;
+}
+.container{
+  
+  position: fixed;
+  margin-top: 400px;
+  width: 300px;
+  display: block;
+}
+p{
+  margin-inline: 50px;
+}
+button:hover{
+  background-color: green;
+}

@@ -2,9 +2,12 @@ import './menu.css'
 
 function menu(props) {
     return (
-      <ul className='menuBar'>
+      
+        <ul className='menuBar'>
         {props.children}
-      </ul>
+        </ul>
+      
+      
       
     );
 }

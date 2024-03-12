@@ -1,4 +1,6 @@
+
 .menuBar{
+
     display: flex;
     margin-top: 0;
     width: 80vw;
@@ -24,20 +26,20 @@ li, button{
     height: 30px;
     text-align: center;
     align-items: center;
-    
     margin-inline: 2%;
     cursor: pointer;
 }
-img{
+.logo{
     
     height: 50px;
     margin-right: 100px;
 }
 .active, .imgCart:hover,.btnm:hover{
     color: white;
-    border: 0;
+  
     box-shadow: 2px 2px 2px rgb(191, 191, 248);
     background-color: palevioletred;
+    
   
     
    
