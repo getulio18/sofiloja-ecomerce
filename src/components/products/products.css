@@ -1,0 +1,25 @@
+.data{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: auto;
+    height: 400px;
+    width: 200px;
+    background-color: rgb(235, 192, 239);
+   display: flex;
+   flex-direction: row;
+   float:inline-start;
+   justify-content: center;
+   margin-left: 20px;
+   margin-top: 80px;
+   align-items: center;
+   text-align: center;
+}
+
+.con{
+    background-color: rebeccapurple;
+}
+.btnP{
+    background-color: red;
+   margin: auto;
+   margin-bottom: 0px;
+}

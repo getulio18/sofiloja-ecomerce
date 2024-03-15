@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./item.css"
 
-function count(){
+function count({isOpen}){
+   if(isOpen){
+
    const [number, setNumber]= useState(0);
 
 const changerNumber = () =>{
@@ -24,5 +26,6 @@ const changerNumber = () =>{
            
          </div>
       );
+      }
 }
 export default count;

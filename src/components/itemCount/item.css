@@ -2,7 +2,7 @@
   display: flex;
   width: 300px;
   margin-bottom: 30px;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   
 }
@@ -12,11 +12,13 @@ button{
   border-radius: 20px;
 }
 .container{
-  
   position: fixed;
   margin-top: 400px;
+  margin-left: 0;
+  bottom: 50%;
+ left: 75%;
   width: 300px;
-  display: block;
+  display: inline-block;
 }
 p{
   margin-inline: 50px;

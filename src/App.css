@@ -2,9 +2,13 @@
   margin:auto ;
   padding: 0;
   display: flex;
+  flex-direction:row;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   width: 1040px;
-  
-  
+
+}
+body{
+  background-color: #eeeeee;
 }
